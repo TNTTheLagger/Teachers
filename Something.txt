@@ -1,0 +1,20 @@
+Teacher examiner!!!!
+1. Localhosted rating;
+2. Log in;
+3. Finalising;
+4. Publishing!!!!!!!!!;
+5. Finish!!!!!!!!!;
+--------------------------------------
+
+General description:
+
+-this system provides the ability to rate our best teachers. Each teacher has its own profile page
+where the ratings can be viewed. Students log in and rate different qualities of the teacher.
+Parents can view these ratings and decide for the best class to send their kid(s) in.
+--------------------------------------
+Steps:
+1. design welcome page;
+2. design rating page - list of teachers;
+3. design teacher's profile page - rating is done on this page;
+4. host local - express Js;
+5. collect rating data (behind the scenes data manage);

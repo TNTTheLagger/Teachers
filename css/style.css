@@ -1,0 +1,66 @@
+
+:root {
+  --time: 7s;  
+}
+textarea.text{
+  height: 100px;
+  width: 1000px;
+  resize: none;
+  margin-bottom: 1px
+}
+textarea.ratingText{
+  height:20px;
+  width: 30px;
+  resize: none;
+  margin-bottom: 1px
+}
+.writeing{
+  color: white;
+  margin-top: 1px;
+  margin-bottom: 1px
+}
+
+.rainbow {
+  /* Chrome, Safari, Opera */
+ -webkit-animation: rainbow var(--time) infinite; 
+ 
+ /* Internet Explorer */
+ -ms-animation: rainbow var(--time) infinite;
+ 
+ /* Standar Syntax */
+ animation: rainbow var(--time) infinite; 
+ text-align:center;
+ margin-top: 1px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+ 0%{color: red;}  
+ 20%{color: red;}
+ 40%{color: yellow;}
+ 60%{color: green;}
+ 80%{color: blue;}
+ 100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+ 0%{color: red;}  
+ 20%{color: red;}
+ 40%{color: yellow;}
+ 60%{color: green;}
+ 80%{color: blue;}
+ 100%{color: orange;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+ 0%{color: red;}  
+ 20%{color: red;}
+ 40%{color: yellow;}
+ 60%{color: green;}
+ 80%{color: blue;}
+ 100%{color: orange;}	
+}
+body{
+ background-image: url(http://fjordstudio.dk/assets/img/bg/diamonds.png);
+}
