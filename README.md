@@ -1,1 +1,3 @@
-# Teachers
+
+
+DO NOT COPY THIS SCRIPT
